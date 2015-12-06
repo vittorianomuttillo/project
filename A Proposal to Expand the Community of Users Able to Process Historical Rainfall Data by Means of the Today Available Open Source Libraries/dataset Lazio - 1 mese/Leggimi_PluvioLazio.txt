@@ -1,0 +1,21 @@
+
+
+
+DATI IDROGRAFICO LAZIO
+
+Ogni file Idrografico del Lazio contiene i dati relativi ad un giorno di misura, ad esempio il file 20071006.dat ha tutti i dati del 6 Ottobre 2007. La frequenza di acquisizione del dato  di 15 minuti. 
+
+Le singole colonna di ogni riga del file significano:
+- ora di acquisizione
+- codice pluviometro
+- nome stazione
+- contatore
+- Accumulata 15 minuti =(contatore Tn-contatore Tn-1)/10 [mm]
+- Pioggia oraria (Accumulata*4) [mm/h]
+- Dati radar Midia di pioggia nei punti corrispondenti al pluviometro
+- ...
+- ...
+- ...
+- Dati radar Midia di pioggia nei punti corrispondenti al pluviometro
+
+Nel file pluvimetri.data ci sono le latitudini e longitudini delle stazioni pluviometriche
