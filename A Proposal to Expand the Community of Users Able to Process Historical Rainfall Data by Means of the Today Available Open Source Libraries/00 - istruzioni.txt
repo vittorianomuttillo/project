@@ -1,0 +1,21 @@
+1) installare linguaggio R, PostgreSQL/PostGIS e pl/r come suggerito nel file word "Tips & Tricks.doc"
+2) creare un database denominato "Rainfall_measurement" utilizzando il template templates_postgis_20 in PostgreSQL
+3) inserire il linguaggio plr nel database eseguendo il file plr.sql come spiegato in precedenza
+
+4) creare le tabelle utilizzando il file create_tables.sql
+5a) creare le funzioni base utilizzando il file create_basic_function.sql
+5b) creare le funzioni per l'interpolazione utilizzando il file create_interpolate_function.sql
+
+6a) Creare all'interno di c://program files/postgresql/9.2/data una nuova cartella chiamata "LucDanVit"
+6b) All'interno della cartella "LucDanVit" creare una cartella chiamata "dati"
+
+
+OSS. All'interno della cartella "LucDanVit" è possibile salvare i grafici e le mappe di interpolazione specificando
+	nelle UDF apposite il path "LucDanVit/nomefile". 
+	E' possibile organizzare così i file anche in cartelle separate. Se non si specifica una cartella precisa
+	le UDF salveranno i file nella cartella data di PostgreSQL.
+
+6c) Inserire i file .dat nella cartella c://program files/postgresql/9.2/data/LucDanVit/dati appena creata
+
+7) popolare il db utilizzando il file populating.sql
+8) pulire i dati utilizzando il file clean.sql
