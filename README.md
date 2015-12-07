@@ -1,5 +1,5 @@
-# project
-Muttillo University Project
+# projectRainfallData
+Rainfall Data management design flow
 
 Paper: http://cit.srce.unizg.hr/index.php/CIT/article/view/2345
 
