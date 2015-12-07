@@ -3,6 +3,6 @@ Muttillo University Project
 
 Paper: http://cit.srce.unizg.hr/index.php/CIT/article/view/2345
 
-Report:
+Report: http://issuu.com/vittorianomuttillo/docs/analisi_di_precipitazioni_atmosferi
 
-Extra: 
+Extra: http://issuu.com/vittorianomuttillo/docs/georeferenziazione_con_quantumgis_e
